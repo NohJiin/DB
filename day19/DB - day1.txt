@@ -1,0 +1,36 @@
+[개념정리]
+1. 정형데이터란?
+: 항목이 정해진 데이터 (저장할 데이터(항목)를 정해놓고 해당 데이터만 저장하는 것)
+2. DBMS란? : 많은 양의 데이터(DB)를 관리해주는 프로그램
+: Data Base Management System
+3. 당신이 알고있는 DBMS의 종류 2가지 이상
+ : Oracle, MySQL
+4. SQL은 무엇의 약자?
+: Structured Quary Language(체계적으로 정리된 명령문의 모음)
+5. SQL의 종류 3가지 분류
+: DDL, DML, DCL
+6. CRUD는 무엇의 약자?
+: Create, Read, Update, Delete
+7. 당신이 알고있는 DB클라이언트 프로그램은?
+: DBeaver
+8. DML중 데이터를 넣을 때 사용하는 구문은?
+: insert
+9. DML중 데이터를 검색할 때 사용하는 구문은?
+: select
+
+[실습문제]
+1. DBeaver를 사용하여 hobby 테이블을 생성하시오(hobbyid, content, loation)
+2. hobby 테이블에서 DDL을 생성하여 hobby2 테이블을 생성하시오
+3. hobby 테이블에서 SQL문을 사용하여
+1) 100, 'run', 'seoul'	2) 200, 'book', 'busan' 을 입력
+INSERT INTO HOBBY VALUES (100, 'run', 'seoul')
+
+INSERT INTO HOBBY VALUES (200, 'book', 'busan')
+
+4. hobby 테이블에 SQL문을 사용하여
+1) 전체 내용을 검색	2) content만 검색 3) location, content 검색
+SELECT * FROM HOBBY
+
+SELECT content FROM HOBBY
+
+SELECT location, content FROM HOBBY
