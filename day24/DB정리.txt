@@ -1,0 +1,33 @@
+정리문제
+1. SQL을 3가지로 구분, 각각 간단 설명 예를 들어보시오
+1) DDL : 스키마 정의와 관련한 명령
+2) DML : 테이블의 데이터를 조작하는 명령 (Create, Read, Update, Delete)
+3) DCL : 제어관리하는 것
+2. DML로 할 수 있는 조작 4가지를 부르는 말
+- CRUD(크루드)
+3. DML의 조작 4가지에 해당하는 각 SQL문
+insert, select, update, delete
+4. 정형데이터 베이스란?
+- 항목을 정해서 저장하는 DB
+5. 스키마란?
+- 데이터를 저장하기 위한 틀(뼈대) : DB명, 테이블명, 컬럼명, 제약조건
+6. 제약조건이란? 예 1가지 이상
+1) Primary Key
+2) Foreign Key
+3) Not null
+4) Unique
+7. Primary Key를 왜 설정하는가?
+- not null, unique
+8. Foreign Key를 왜 설정하는가?
+- 문제가 잇는 데이터가 들어가지 않게 자동 체크
+9. 저장할 대상을 부르는 말? 한글/영어
+- 개체/엔티티
+10. varchar2와 char의 차이
+- varchar2 : 가변길이
+- char : 고정길이
+11. join을 왜 하는가?
+- 검색할 내용이 여러 테이블을 합해서 해야하는 경우
+12. join의 3가지 종류 비교
+1) Inner Join : join하는 테이블의 모든 개체를 보여줌
+2) Left Outer Join : 왼쪽 테이블은 모두 보여주고 오른쪽 테이블의 개체는 공통된 것만 보여줌
+3) Right Outer Join : 오른쪽 테이블은 모두 보여주고 왼쪽 테이블의 개체는 공통된 것만 보여줌
